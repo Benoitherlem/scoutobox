@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Scoutobox</string>
+    <string name="title_activity_main">Scoutobox</string>
+    <string name="package_name">joue.le.jeu</string>
+    <string name="custom_url_scheme">joue.le.jeu</string>
+</resources>

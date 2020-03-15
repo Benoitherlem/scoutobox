@@ -1,0 +1,92 @@
+{
+
+  "actmanuelle": [
+
+    {
+      "name":"Pochoirs",
+      "type":"Activité manuelle",
+      "soustype":"Artistique",
+      "materiel":"Les pochoirs peuvent être réalisés dans différents supports<ul><li>Papier cartonné (type bristol)</li><li>  Carton ordinaire</li><li>Carton huilé prêt à l'emploi</li><li>Feuilles de plastique</li><li>Acétate (disponible dans les magasins spécialisés)</li></ul>",
+      "activite":"Dessinez ou reproduisez le motif que vous souhaitez directement sur le support pochoir.<br>Choisissez un motif simple du moins dans les premiers temps.<br>Evidez l'intérieur des motifs avec des ciseaux. (attention ça coupe)<br>Pour évider avec des ciseaux :<br>Découpez une croix au centre de la partie à évider<br>Evidez par petites parties, découpez les parties les plus faciles à évider puis terminez par les autres, les ciseaux auront plus de place pour bouger et tourner.<br><br>Peinture:</b>Positionner le pochoir sur la surface à peindre et peindre l'intérieur",
+      "variante":"",
+        "img":"assets/imgs/actmanuelle/art.png",
+      "imgf":"assets/imgs/actmanuelle/art_flat.png",
+      "imgl":"assets/imgs/actmanuelle/art_flatlight.png",
+      "principe":"¨Permettre aux jeunes de créer, d'exprimer une pensée par une oeuvre leur apprend à s'exprimer et à conscientiser leurs émotions"
+    },
+    {
+            "name":"Castagnettes",
+              "type":"Activité manuelle",
+              "soustype":"Instruments de musique",
+              "materiel":"<ul><li>du carton</li><li>des capsules de soda/limonade</li></ul>",
+              "activite":"Découper une bande de cartons de 10cm x 3cm<br>Plier la bande en 2<br>coller de chaque coté une capsule métallique<br>Il est possible de peindre et décorer les casatagnettes",
+              "variante":"",
+              "img":"assets/imgs/actmanuelle/music.png",
+              "imgf":"assets/imgs/actmanuelle/music_flat.png",
+              "imgl":"assets/imgs/actmanuelle/music_flatlight.png",
+              "principe":"La création d'instruments a un triple interêt:<ul><li>manuel: j'apprends à faire de mes mains</li><li>musical: je produit un son moi-même</li><li>collectif: nous jouons ensemble</li></ul>"
+        },
+        {
+          "name":"Kazoo",
+          "type":"Activité manuelle",
+          "soustype":"Instruments de musique",
+          "materiel":"<ul><li>Tuyau d'arrosage découpé en bout de 10cm ou rouleau en carton</li><li>Des élastiques ou du scotch</li><li>Du papier l ou papier très fin</li></ul>",
+          "activite":"Découper une bande de cartons de 10cm x 3cm<br>Plier la bande en 2<br>coller de chaque coté une capsule métallique<br>Il est possible de peindre et décorer les casatagnettes",
+          "variante":"",
+          "img":"assets/imgs/actmanuelle/music.png",
+          "imgf":"assets/imgs/actmanuelle/music_flat.png",
+          "imgl":"assets/imgs/actmanuelle/music_flatlight.png",
+          "principe":"La création d'instruments a un triple interêt:<ul><li>manuel: j'apprends à faire de mes mains</li><li>musical: je produit un son moi-même</li><li>collectif: nous jouons ensemble</li></ul>"
+        },
+
+            {
+              "name":"Maracas",
+              "type":"Activité manuelle",
+              "soustype":"Instruments de musique",
+              "materiel":"<ul><li>des pots de yaourts</li><li>de la peinture</li><li>de la colle</li><li>du riz</li></ul>",
+              "activite":"Mettre du riz dans un pot de yaourt et coller un second yaourt par dessus<br>Laisser sécher<br>Puis décorer la maracas avec la peinture (En fonction de la matière du pot, la peinture adhérera plus ou moins, un essai préalable sera pertinent)",
+              "variante":"",
+              "img":"assets/imgs/actmanuelle/music.png",
+              "imgf":"assets/imgs/actmanuelle/music_flat.png",
+              "imgl":"assets/imgs/actmanuelle/music_flatlight.png",
+              "principe":"La création d'instruments a un triple interêt:<ul><li>manuel: j'apprends à faire de mes mains</li><li>musical: je produit un son moi-même</li><li>collectif: nous jouons ensemble</li></ul>"
+            },
+            {
+              "name":"Xylophone",
+              "type":"Activité manuelle",
+              "soustype":"Instruments de musique",
+              "materiel":"<ul><li>des bouteilles d'eau en verre</li><li>de l'eau></li><li>des cuillères</li></ul>",
+              "activite":"Remplir les bouteilles d'eau avec différents niveaux<br>Mettre les bouteilles côtesà côte en les triant par niveaux de remplissage<br>En tapant dessus avec la cuillère on obtient des notes différentes<br>Il est possible de décorer le bas et le haut des bouteilles.",
+              "variante":"",
+              "img":"assets/imgs/actmanuelle/music.png",
+              "imgf":"assets/imgs/actmanuelle/music_flat.png",
+              "imgl":"assets/imgs/actmanuelle/music_flatlight.png",
+              "principe":"La création d'instruments a un triple interêt:<ul><li>manuel: j'apprends à faire de mes mains</li><li>musical: je produit un son moi-même</li><li>collectif: nous jouons ensemble</li></ul>"
+            },
+            {
+              "name":"Flèche polynesienne",
+              "type":"Activité manuelle",
+              "soustype":"Artisanat",
+              "materiel":"<ul><li>une branche d'un bois bien droit, et avec peu de nœuds</li<li>un peu de carton</li><li>un peu de fil de fer ou de ficelle</li><li>une cordelette (ici un lacet de 150 cm)</li></ul>",
+              "activite":"<ul><li>Fendre en 4 du côté le plus fin (la pointe doit être la plus lourde, elle sera toujours du côté le plus épais), puis faire une petite encoche sur le bout...</li><li>Découper 2 ailerons en carton</li><li>Les ajuster dans le bois fendu, et bloquer le tout avec un petit fil de fer ou une petite ficelle passée dans l'encoche du haut.</li><li>Pratiquer une autre encoche sous les ailerons, qui servira à positionner le lanceur en cordelette</li><li>Tailler en pointe le bout... Si le bois est très tendre, vous pouvez passer un peu la pointe au feu pour la durcir</li><li>Faire un noeud au bout de la cordelette.</li></ul>",
+              "variante":"<font color=\"red\"><b>Attention l’usage de flèches polynésiennes doit se faire dans des conditions de sécurité satisfaisantes: Zone de tir, limite de sécurité, rangement des flèches en dehors des temps de tir…</b></font><br><br><b>Lancement</b><ul><li>Bloquer la cordelette dans l'encoche en y posant le nœud, puis en faisant faire le tour à la corde suivant l'encoche, faire passer la corde par-dessus le noeud pour la faire ensuite courir le long de la flèche. Quand la corde est tendue, en principe, le dispositif ne bouge pas.</li> <li>Entourer la cordelette autour de votre main de façon à ce que, la corde tendue, vous puissiez tenir la flèche près de la pointe.</li></ul>",
+              "img":"assets/imgs/actmanuelle/artisanat.png",
+              "imgf":"assets/imgs/actmanuelle/artisanat_flat.png",
+              "imgl":"assets/imgs/actmanuelle/artisanat_flatlight.png",
+              "principe":"Une activité manuelle apprend aux jeunes à créer de leurs mains"
+            },
+            {
+              "name":"Torches",
+              "type":"Activité manuelle",
+              "soustype":"Artisanat",
+              "materiel":"<ul><li>des bâtons pour faire les manches de la torche</li><li>du combustible : la paraffine, des bougies</li><li>soit des bandes de tissu (la serpillère marche très bien) ou un rouleau de PQ (mais ça dure moins longtemps). Dans la pratique, on prend souvent des vieux tee-shirts, des vieux morceaux de tentes rapiécés, des vieux sacs à patates.</li><li>du fil de fer (facultatif, selon méthode),</li>",
+              "activite":"<br><br><font color=\"red\"><b>La réalisation de torches comporte certains dangers : feu, paraffine brulante... Les chefs seront vigilants à mettre en œuvre les conditions de sécurité appropriées</b><br></font><br><b>Méthode : Enrouler puis imbiber</b><ul><li>Les bandes de tissus sont enroulées serrées au bout du manche (faire pas mal de tours).</li><li>Le fil de fer permet de fixer solidement le tissu. (Il ne faut pas qu’une fois enflammé il glisse le long du manche)</li><li>Une fois fixé, imbiber la torche dans la paraffine liquide. (Soit en la plongeant dedans soit en l’arrosant abondement avec une louche.</li></ul>",
+              "variante":"<b>Conseils :</b><ul><li>Utiliser une grosse boite de conserve vide pour faire chauffer la paraffine</li><li>Pour nettoyer une gamelle plein de paraffine, vider la paraffine dans de l’eau froide (elle va se solidifier), puis utiliser un sopalin. La paraffine encore chaude va se fixer dessus.</li><li>Avant de faire la torche, tailler en pointe le bout des manches afin de pouvoir planter les torches dans le sol.</li></ul><b>Points de vigilance</b><ul><li>La paraffine peut prendre feu : S’installe en extérieur, loin des tentes.</li><li>Ne pas exposer la paraffine aux flammes, faire chauffer dans les braises</li><li>Attention une torche, ça fond, on ne la tient donc pas verticalement mais légèrement de travers pour qu’elle ne coule pas sur ses mains.</li></ul>",
+              "img":"assets/imgs/actmanuelle/artisanat.png",
+              "imgf":"assets/imgs/actmanuelle/artisanat_flat.png",
+              "imgl":"assets/imgs/actmanuelle/artisanat_flatlight.png",
+              "principe":"Une activité manuelle apprend aux jeunes à créer de leurs mains"
+            }
+            ]
+
+        }

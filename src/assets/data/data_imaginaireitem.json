@@ -1,0 +1,63 @@
+{
+
+  "item": [
+    {
+      "name":"Accroche",
+      "img":"assets/imgs/imaginaire/accroche.png",
+      "detail":"Les accroches sont l'entrée dans l'imaginaire<br><ul><li>Affiche<li>Animation de lancement durant le repas: sketch, chant</li><li>Courrier (par la poste avant le camp/WE ou livré durant la journée par un personnage)</li><li>Message sous l’assiette</li><li>Surprise: sortir d’une tente, d’une malle (apparaitre par surprise)</li><li>Venir rencontrer les personnes une par une</li><li>Distribution de tracts</li><li>Faire venir le public au lieu (par du bruit, des chants, de la musique)</li><li>Faire intervenir une personne extérieure (propriétaire….)</li></ul>",
+      "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+      "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+    },
+            {
+        "name":"Mise en équipe",
+        "img":"assets/imgs/imaginaire/equipe.png",
+        "detail":"<b>L'enjeu est de rester dans l'imaginaire, et d'éviter le \"Bon bah on va faire 2 équipes\"</b><ul><li>Tout le monde aligné et un jeune sur deux va dans l’équipe 1 et l’autre dans l’équipe 2 L’alignement peut être au hasard, par ordre alphabétique, par ordre de taille, etc...</li><li>Chaque membre de l’équipe un bout de puzzle</li><li>Chaque membre de l’équipe a un bout de papier sur lequel il y a un animal. Il doit faire le cri de l’animal pour retrouver ses coéquipiers</li><li>Un papier sous la chaise</li><li>Une gommette sur la main</li><li>Des peintures de guerre (maquillage)</li><li>Une mission, rôle</li><li>Rendez-vous à un endroit spécifique par équipe</li><li>Par désignation (le personnage principal va désigner)</li><li>Par la remise d’un bracelet « magique » (ou autre)</li><li>Selon le mois de naissance</li></ul>",
+        "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+        "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+        },
+    {
+      "name":"Décors",
+      "img":"assets/imgs/imaginaire/decors.png",
+      "detail":"<b>Permet de rendre la scène magique</b><br><br>La nature peut être un décor approprié<br>Sinon, ne pas hésiter à utiliser baches et tentes à disposition<br>Un drap et de la peinture permettront de faire un peu tout type de décor",
+      "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+      "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+    },
+    {
+    "name":"Déguisements",
+    "img":"assets/imgs/imaginaire/deguisement.png",
+    "detail":"Enlever son foulard et sa chemise<br><br>Le déguisement donne vie aux personnages, il doit presque permettre de comprendre qui est le personnage avant qu’il se présente",
+    "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+    "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+    },
+    {
+    "name":"Maquillage",
+    "img":"assets/imgs/imaginaire/maquillage.png",
+    "detail":"Le maquillage permet de transformer le visage d’un chef, et d’un coup le faire devenir quelqu’un d’entièrement différent<br><br><b>Bonne pratique</b>:Prendre aussi du démaquillant<br><br>",
+    "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+    "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+    },
+    {
+    "name":"Raconter",
+    "img":"assets/imgs/imaginaire/raconter.png",
+    "detail":"Raconter une histoire c'est une histoire de <b><font color=\"#045FB4\">FES</font></b><br><ul><li><b>Fun: </b>On doit s’amuser<br></li><li><b>Emerveillement: </b>On doit rêver<br></li><li><b>Surprise :</b>On doit être interpelé<br></li></ul>",
+    "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+    "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+  },
+    {
+    "name":"Jouer",
+    "img":"assets/imgs/imaginaire/jouer.png",
+    "detail":"Le jeu d'acteur sera important pour immerger les participants dans l'imaginaire et pour qu'ils comprennent l'histoire<ul><li>Parler fort et lentement</li><li>Expliquer et ré-expliquez</li><li>Parler en regardant le public (ne pas regarder l’autre acteur)</li><li>Ne jamais tourner le dos au public</li><li>Seuls les acteurs \"en action\" sont au premier plan: Eviter l'effet \"brochette\"</ul>",
+    "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+    "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+    },
+    {
+    "name":"Personnage",
+    "img":"assets/imgs/imaginaire/personnage.png",
+    "detail":"<b>Etre</b><br>Pour être crédible un personnage doit être quelqu’un: avoir un nom, un passé, et des histoires à raconter. (Et raconter tout ça !)<br><br><b>Exister:</b><br>Chaque personnage a des attitudes et des gestes en phase avec sa personnalité. Cela lui donne de la profondeur, une âme.",
+    "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+    "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+    }
+
+        ]
+
+        }

@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button text="Retour"   defaultHref="/methode"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Constuire un imaginaire</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+
+    <b><font color="#045FB4" size=5>Construire un imaginaire</font><br></b>
+    <br>
+    Un imaginaire est un histoire dans laquelle on se laisse emporter. Comme toute histoire bien construite, il est composé de différents éléments
+
+      <img src="assets/imgs/etapes.png" alt="etapes">
+    <br>
+    <ion-list> <div  *ngFor="let p of data_imaginaireetape; let i = index">
+    <ion-item color = {{coloretape[i]}} button (click)="etapeactive(p.name,i)" center>
+       <ion-avatar item-start>     <img src={{p.img}}>   </ion-avatar> <ion-label class="marge"> {{p.name}}</ion-label> </ion-item>
+      <ion-item *ngIf="itemetapeactif==p.name" ><ion-label text-wrap><span [innerHTML]="p.detail"></span></ion-label></ion-item></div>
+    </ion-list>
+    <br>
+      <b><font color="#045FB4" size=5>Faire vivre un imaginaire</font><br></b><br>
+    Un imaginaire est un monde dans lequel on rentre, une histoire dans laquelle on rêve.<br>
+    Un imaginaire c’est comme une bulle dans laquelle on fait rentrer les jeunes et dont ils ne ressortent pas avant la fin de l’activité.
+    <br>  <br>
+  <ion-list>
+    <div  *ngFor="let p of data_imaginaireitem; let i = index">
+    <ion-item color = {{coloritem[i]}} button (click)="itemactive(p.name,i)" center>
+     <ion-avatar item-start>     <img src={{p.img}}>   </ion-avatar> <ion-label class="marge"> {{p.name}}</ion-label> </ion-item>
+     <ion-item *ngIf="itemitemactif==p.name" ><ion-label text-wrap><span [innerHTML]="p.detail"></span></ion-label></ion-item>
+     </div>
+  </ion-list>
+
+
+  <br>
+    <ion-card-content>
+  <i>Sais-tu chanter, improviser une histoire de pirates, marcher sur les mains, imiter les cris d’animaux, dessiner sur les murs avec un morceau de charbon ?
+  </i><br>
+  <i>Alors tu auras la discipline.</i><br>
+
+  F. DELIGNY, « Graine de crapule »
+    </ion-card-content>
+</ion-content>

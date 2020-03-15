@@ -1,0 +1,35 @@
+{
+
+  "etape": [
+    {
+      "name":"Accroche",
+      "img":"assets/imgs/veilleeetape/accroche.png",
+      "detail":"Elle peut être matérialisée sous différentes formes<br><br>Cf page sur les étapes d'un imaginaire<br>L’invitation nous permet de rentrer dans l’imaginaire de la veillée. Elle peut avoir lieu au début de la veillée, ou bien avant, en teasing",
+        "imgf":"assets/imgs/veilleeetape/veilleeetape_flat.png",
+      "imgl":"assets/imgs/veilleeetape/veilleeetape_flatlight.png"
+    },
+            {
+        "name":"Accélération",
+        "img":"assets/imgs/veilleeetape/acceleration.png",
+        "detail":"C'est le temps de l'ambiance, dans lequel les jeunes sont immergés dans la veillée et la vivent à fond.<br><br>L'enjeux est de faire monter l'intensité de la veillée (un temps intense n'est pas nécessairement agité)",
+        "imgf":"assets/imgs/veilleeetape/veilleeetape_flat.png",
+        "imgl":"assets/imgs/veilleeetape/veilleeetape_flatlight.png"
+        },
+    {
+      "name":"Point culminant",
+      "img":"assets/imgs/veilleeetape/culminant.png",
+      "detail":"Le point culminant est le moment à partir duquel la veillée va commencer à baisser tranquillement en intensité.<br><br>Cette descente est organisée et nécessite un peu de temps",
+      "imgf":"assets/imgs/veilleeetape/veilleeetape_flat.png",
+      "imgl":"assets/imgs/veilleeetape/veilleeetape_flatlight.png"
+    },
+    {
+    "name":"Retour au calme",
+    "img":"assets/imgs/veilleeetape/calme.png",
+    "detail":"L'enjeu est de préparer les jeunes à aller se coucher en revenant sur un rythme calme. Il existe différentes techniques, par exemple:<br><br><b>Chants</b><ul><li>Terre Rouge, Terre de feu </li><li>Bonsoir bonsoir les loups, la veillée est finie</li><li>Bonsoir tous à la ronde</li><li>On vous dit bonsoir et bonne nuit </li><li>Voguons au gré des mers</li></ul><br><br><b>Autres</b><ul><li>Lecture d’une histoire</li><li>Lecture de textes: Livre de Lézard, mille textes...</li><li>Observation des étoiles: Des cartes célestes se trouve dans plein de magazines l’été. Il y a également des applis gratuites</li></ul><b>Départ échelonnés :</b><br><br>L’idée est de permettre un départ individuel ou en équipe afin que chacun rentre paisiblement à sa tente.<br><br>Point d’attention :<br>La maitrise sera vigilante à ce que les activités « d’après retour au calme », comme le brossage des dents, la zone toilettes, restent elles aussi calmes jusqu’au coucher",
+    "imgf":"assets/imgs/veilleeetape/veilleeetape_flat.png",
+    "imgl":"assets/imgs/veilleeetape/veilleeetape_flatlight.png"
+    }
+
+        ]
+
+        }

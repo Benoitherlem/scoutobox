@@ -1,0 +1,36 @@
+{
+
+  "etapes": [
+
+    {
+      "name":"Situation de depart",
+      "img":"assets/imgs/imaginaire/depart.png",
+      "detail":"Le Roi Arthur est le Roi incontesté de son royaume et son peuple vit dans la prospérité. Il garde son royaume des ennemis grâce à sa fidèle épée Excalibur…<br>Hélas, alors qu’il chassait en forêt, il a été attiré par une sorcière qui l’a endormi… quand il s’est réveillé, il n’avait plus Excalibur… si les ennemis du Royaume le savent… ils viendront attaquer et la paix du royaume connaîtra une triste fin.<br><br><b>ATTENTION :</b> Cette étape est souvent bâclée… Résultat on ne comprend rien à l’histoire…<br>Conseil: Chaque élément de l’histoire doit être énoncé 3 fois (sous forme différente ou pas)<br><br>",
+      "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+      "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+    },
+    {
+      "name":"Alliance",
+      "img":"assets/imgs/imaginaire/alliance.png",
+      "detail":"Le Roi est trop vieux pour parcourir le Royaume à la recherche d’une épée et ce serait trop dangereux de quitter le château… Comment faire ?<br><br>Justement, les louveteaux et jeannettes ont choisi ce Royaume de Paix pour y faire leur camp d’été. Quand le roi apprend leur arrivée, il leur propose un pacte : s’ils retrouvent Excalibur, ils pourront rester tant qu’ils voudront dans le Royaume. Sinon, il faut qu’ils rentrent chez eux avant que la guerre n’éclate ! Les louveteaux-jeannettes décident de partir à la recherche d’Excalibur.<br><br><b>ATTENTION</b><br>Cette étape est souvent oubliée…. Résultat on ne sait pas ce qu’on fait là<br><br><b>Conseil:</b>L’alliance peut être faite durant la veillée ( le roi appelle les jeunes), mais aussi avant : il suffit de dire qu’ils sont un groupe de chevaliers errants…<br><br>",
+      "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+      "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+    },
+    {
+      "name":"Action",
+      "img":"assets/imgs/imaginaire/action.png",
+      "detail":"Enfin les louveteaux retrouvent la trace de la méchante sorcière… mais celle-ci est si terrible qu’on ne peut pas s’approcher. Une fée leur apprend qu’il est possible de la transformer en princesse s’ils parviennent à lui faire boire cette potion la sorcière… mais justement, demain, c’est le banquet des sorcières… et les louveteaux ont une idée : ils vont se proposer d’être les intendants du banquet. Ils pourront alors verser la potion dans les verres à loisir !<br><br>",
+      "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+      "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+    },
+    {
+    "name":"Dénouement heureux",
+    "img":"assets/imgs/imaginaire/denouement.png",
+    "detail":"Ça marche ! Et ce n’est pas juste cette sorcière mais toutes les sorcières du Royaume qui sont transformées en princesses que de valeureux princes épousent aussitôt !<br>Le Roi, pour les remercier de lui avoir rendu Excalibur, ordonne un grand festin et leur promet qu’ils pourront revenir dans leur Royaume pendant 100 ans. Mais c’est déjà le temps de rentrer…<br><br><b>ATTENTION :</b>Cette étape est trop souvent bâclée…. Prendre le temps de faire réver<br><br>",
+    "imgf":"assets/imgs/imaginaire/imaginaire_flat.png",
+    "imgl":"assets/imgs/imaginaire/imaginaire_flatlight.png"
+  }
+
+        ]
+
+        }

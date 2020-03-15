@@ -1,0 +1,92 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button text="Retour"  defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Evaluer une activité</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="card-background-page" class="ion-padding" >
+
+
+
+<div  *ngIf="item=='EVAL'">
+
+  <div class="ion-text-center" class="marge"> <ion-button round (click)="raz_eval(eval_coche)" >Nouvelle évaluation</ion-button></div>
+
+  <div *ngFor="let p of data; let i = index"  class="ion-text-right">
+
+      <div  *ngIf="p.type=='separation'">
+        <ion-card class="card-background-page">
+          <img src={{p.img}} />
+            <div class="card-title"> {{p.categorie}}</div>
+         </ion-card>
+      </div>
+
+      <div  *ngIf="p.type=='range'">
+            <ion-item-divider class="ion-text-left"><b>{{p.eval}}</b>  </ion-item-divider>
+            <br>
+
+            <ion-item  *ngIf="eval_coche[i]==val1" no-lines><ion-avatar slot="end"><img src="assets/imgs/evaluation/tresmal.png"></ion-avatar><i><small>{{p.res1}}</small></i></ion-item>
+            <ion-item  *ngIf="eval_coche[i]==val2" no-lines><ion-avatar slot="end"><img src="assets/imgs/evaluation/mal.png"></ion-avatar><i><small>{{p.res2}}</small></i></ion-item>
+            <ion-item  *ngIf="eval_coche[i]==val3" no-lines><ion-avatar slot="end"><img src="assets/imgs/evaluation/bien.png"></ion-avatar><i><small>{{p.res3}}</small></i></ion-item>
+            <ion-item  *ngIf="eval_coche[i]==val4" no-lines><ion-avatar slot="end"><img src="assets/imgs/evaluation/tresbien.png"></ion-avatar><i><small>{{p.res4}}</small></i></ion-item>
+
+            <ion-range min="1" max="4" snaps="true" step = "1" [(ngModel)]=eval_coche[i] color="secondary">
+              <ion-icon range-left small name={{p.icone_range_min}}></ion-icon>
+              <ion-icon range-right name={{p.icone_range_max}}></ion-icon>
+              </ion-range>
+
+        </div>
+
+      <div *ngIf="p.type=='toggle'">
+      <ion-item>
+      <ion-label><small class="ion-text-wrap">{{p.eval}}</small></ion-label> <ion-toggle color="secondary" [(ngModel)]=eval_coche[i]></ion-toggle>
+      </ion-item>
+
+        </div>
+
+
+  </div>
+</div>
+
+<div  *ngIf="item=='RESULTAT'">
+    <div><ion-card class="card-background-page">
+      <img src="assets/imgs/evaluation/evaluation_flat.png" />
+        <div class="card-title"> Résultat</div>
+     </ion-card></div>
+
+     <div><small><i>Les activités ne sont pas sensées atteindre 100%, c'est d'ailleurs rarement possible.<br>Cet outil te permet d'identifier des axes de progrès pour la prochaine activité.</i></small></div>
+
+     <br><br>
+
+   </div>
+  <canvas id="myChart"> </canvas>
+
+<div  *ngIf="item=='RESULTAT'">
+
+   <div class = "marge">
+   <br><b>Cadre:</b> {{radarChartData[0].data[0]}} %
+   <br><b>Règles:</b> {{radarChartData[0].data[1]}} %
+   <br><b>Equipe:</b> {{radarChartData[0].data[2]}} %
+   <br><b>Imaginaire:</b> {{radarChartData[0].data[3]}} %
+   <br><b>Roles:</b> {{radarChartData[0].data[4]}} %
+   <br><b>Action:</b> {{radarChartData[0].data[5]}} %
+   <br><b>Sens:</b> {{radarChartData[0].data[6]}} %<br><br>
+
+
+
+   </div>
+
+</div>
+
+
+  <div *ngIf="item=='EVAL'" class="ion-text-center" class="marge"> <ion-button  router-direction="forward" round (click)="openresultat('RESULTAT',eval_coche)" >Résultat</ion-button></div>
+  <div *ngIf="item=='RESULTAT'" class="ion-text-center" class="marge"> <ion-button  router-direction="back" round (click)="openresultat('EVAL',eval_coche)" >Retour à l'évaluation</ion-button></div>
+
+</ion-content>

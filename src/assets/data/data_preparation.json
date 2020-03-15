@@ -1,0 +1,169 @@
+{
+
+  "preparation": [
+
+                    {
+                      "categorie":"CADRE",
+                      "check":"Le terrain est délimité",
+                      "check_color":"secondary",
+                      "test":"",
+                      "souscheck1":"",
+                      "souscheck1_color":"",
+                      "souscheck2_id":"",
+                      "souscheck2":"",
+                      "souscheck2_color":""
+                    },
+                    {
+                      "categorie":"CADRE",
+                      "check":"Il y a des zones dangeureuses",
+                      "check_color":"danger",
+                      "souscheck1":"Les dangers sont balisées",
+                      "souscheck1_color":"secondary",
+                      "souscheck2":"Les jeunes sont informés des dangers",
+                      "souscheck2_color":"secondary"
+                    },
+                    {
+                      "categorie":"CADRE",
+                      "check":"La durée de l'activité est définie",
+                      "check_color":"secondary",
+                      "souscheck1":"La durée inclue le lancement et la cloture",
+                      "souscheck1_color":"secondary",
+                      "souscheck2":"Il y a un chef gardien du temps",
+                      "souscheck2_color":"secondary"
+                    },
+                    {
+                      "categorie":"CADRE",
+                      "check":"Il y a du soleil ou de la chaleur",
+                      "check_color":"danger",
+                      "souscheck1":"Il y a des zones d'ombres",
+                      "souscheck1_color":"secondary",
+                      "souscheck2":"De l'eau est prévue",
+                      "souscheck2_color":"secondary"
+                    },
+                    {
+                      "categorie":"REGLES",
+                      "check":"Les règles sont définies ",
+                      "check_color":"secondary",
+                      "souscheck1":"Les règles sont affichées",
+                      "souscheck1_color":"secondary",
+                      "souscheck2":"Les règles sont simples et adaptées",
+                      "souscheck2_color":"secondary"
+                    },
+                    {
+                      "categorie":"REGLES",
+                      "check":"Toute la maitrise connait la règle",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"REGLES",
+                      "check":"Un seul chef expliquera la règle",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"EQUIPE",
+                      "check":"La mise en équipe est dans l'imaginaire",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"EQUIPE",
+                      "check":"Les équipes sont équitables",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"EQUIPE",
+                      "check":"Les chefs sont intégrés aux équipes",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "check":"Les personnages sont identifiés",
+                      "check_color":"secondary",
+                      "souscheck1":"Les personnages ont des déguisements et accessoires",
+                      "souscheck1_color":"secondary",
+                      "souscheck2":"Les personnages ont des caractères spécifiques",
+                      "souscheck2_color":"secondary"
+                    },
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "check":"Les décors sont réalisés",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "check":"Le lancement est prévu",
+                      "check_color":"secondary"
+                    },
+
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "check":"L'accroche est prévue",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "check":"L'alliance est prévue",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "check":"La cloture est prévue",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "check":"La mise en scène est prévue",
+                      "check_color":"secondary",
+                      "souscheck1":"Les arrivées et sortie de scène sont prévues",
+                      "souscheck1_color":"secondary",
+                      "souscheck2":"Le jeu de scène est préparée ",
+                      "souscheck2_color":"secondary"
+                    },
+                    {
+                      "categorie":"ROLES",
+                      "check":"Les roles sont attribués",
+                      "check_color":"secondary",
+                      "souscheck1":"Si possible des chefs jouent avec les jeunes",
+                      "souscheck1_color":"secondary"
+                    },
+                    {
+                      "categorie":"ROLES",
+                      "check":"Il y a un arbitre/coordinateur",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"ACTION",
+                      "check":"L'activité est sympa et amusante",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"ACTION",
+                      "check":"Il n'y a pas de violence physique",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"ACTION",
+                      "check":"Il n'y a pas de violence morale",
+                      "check_color":"secondary"
+                    },
+                    {
+                      "categorie":"ACTION",
+                      "check":"Tout le monde participe",
+                      "check_color":"secondary",
+                      "souscheck1":"Même les blessés ont un rôle",
+                      "souscheck1_color":"secondary"
+                    },
+                     {
+                        "categorie":"SENS",
+                        "check":"L'activité les fait un peu grandir",
+                        "check_color":"secondary",
+                        "souscheck1":"Les jeune développent des compétences",
+                        "souscheck1_color":"secondary",
+                        "souscheck2":"Les jeune découvrent de nouvelles choses",
+                        "souscheck2_color":"secondary"
+                      }
+
+
+
+        ]
+
+}

@@ -1,0 +1,8 @@
+{
+  "appId": "joue.le.jeu",
+  "appName": "Scoutobox",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

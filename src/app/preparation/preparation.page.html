@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button text="Retour"  defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Preparation</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card class="card-background-page" >
+    <img src= "assets/imgs/creiras/creira_flat.png"/>
+    <div class="card-title"> {{item}}</div>
+   </ion-card>
+
+
+
+<div class="marge" *ngIf="item == 'RESULTAT'"> <b><br>Points restant à instruire:</b><br><br></div>
+   <ion-list>
+     <div *ngFor="let p of data; let i = index">
+       <div *ngIf= "p.categorie == item" >
+  <ion-item text-wrap>
+    <ion-label text-wrap>{{p.check}}</ion-label> <ion-checkbox item-end color={{p.check_color}}  [(ngModel)]=prepa_coche[i*3]  ></ion-checkbox>  </ion-item>
+    <div *ngIf="prepa_coche[i*3]==true"><ion-item *ngIf="p.souscheck1" ><ion-label text-wrap class="marge"><h4><ion-icon name="arrow-forward"></ion-icon>&nbsp;&nbsp;<span [innerHTML]= "p.souscheck1" ></span></h4></ion-label> <ion-checkbox item-end color={{p.souscheck1_color}} [(ngModel)]=prepa_coche[i*3+1] ></ion-checkbox></ion-item></div>
+    <div *ngIf="prepa_coche[i*3]==true"><ion-item *ngIf="p.souscheck2" ><ion-label text-wrap class="marge"><h4><ion-icon name="arrow-forward"></ion-icon>&nbsp;&nbsp;<span [innerHTML]= "p.souscheck2" ></span></h4></ion-label> <ion-checkbox item-end color={{p.souscheck2_color}} [(ngModel)]=prepa_coche[i*3+2]  ></ion-checkbox></ion-item></div>
+
+
+    </div>
+
+    <div  class="marge" *ngIf="item == 'RESULTAT' && prepa_coche[i*3]!=true && p.check_color!='danger'"> <small>[{{p.categorie}}]-{{p.check}}</small> </div>
+    <div   class="marge" *ngIf="item == 'RESULTAT' && prepa_coche[i*3+1]!=true && prepa_coche[i*3]==true && p.souscheck1_color!='danger'"><span *ngIf="p.souscheck1"> -&nbsp;<small>{{p.souscheck1}} </small></span></div>
+    <div   class="marge" *ngIf="item == 'RESULTAT' && prepa_coche[i*3+2]!=true && prepa_coche[i*3]==true && p.souscheck2_color!='danger'"><span *ngIf="p.souscheck2"> -&nbsp;<small>{{p.souscheck2}}</small> </span></div>
+
+
+
+  </div>
+   </ion-list>
+
+
+
+
+   <div text-center *ngIf= "item == 'CADRE'">
+     <ion-button  (click)="raz_alerte(prepa_coche)" > Effacer tout</ion-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <ion-button round (click)="openPreparationPage(regles, prepa_coche)" > Règles &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ion-icon name="arrow-forward"></ion-icon> </ion-button>
+  </div>
+
+   <div text-center *ngIf= "item == 'REGLES'">
+     <ion-button round (click)="openPreparationPageback(cadre, prepa_coche)" ><ion-icon name="arrow-back"></ion-icon>&nbsp;&nbsp;Cadre  </ion-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <ion-button round (click)="openPreparationPage(equipe, prepa_coche)" >Equipe &nbsp;&nbsp; <ion-icon name="arrow-forward"></ion-icon> </ion-button>
+   </div>
+   <div text-center *ngIf= "item == 'EQUIPE'">
+     <ion-button round (click)="openPreparationPageback(regles, prepa_coche)" ><ion-icon name="arrow-back"></ion-icon>&nbsp;&nbsp;Règles  </ion-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <ion-button round (click)="openPreparationPage(imaginaire, prepa_coche)" >Imaginaire &nbsp;&nbsp; <ion-icon name="arrow-forward"></ion-icon> </ion-button>
+   </div>
+   <div text-center *ngIf= "item == 'IMAGINAIRE'">
+     <ion-button round (click)="openPreparationPageback(equipe, prepa_coche)" ><ion-icon name="arrow-back"></ion-icon>&nbsp;&nbsp;Equipe  </ion-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <ion-button round (click)="openPreparationPage(roles, prepa_coche)" >Roles &nbsp;&nbsp; <ion-icon name="arrow-forward"></ion-icon> </ion-button>
+   </div>
+   <div text-center *ngIf= "item == 'ROLES'">
+     <ion-button round (click)="openPreparationPageback(imaginaire, prepa_coche)" ><ion-icon name="arrow-back"></ion-icon>&nbsp;&nbsp;Imaginaire  </ion-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <ion-button round (click)="openPreparationPage(action, prepa_coche)" >Action &nbsp;&nbsp; <ion-icon name="arrow-forward"></ion-icon> </ion-button>
+   </div>
+   <div text-center *ngIf= "item == 'ACTION'">
+     <ion-button round (click)="openPreparationPageback(roles, prepa_coche)" ><ion-icon name="arrow-back"></ion-icon>&nbsp;&nbsp;Roles  </ion-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <ion-button round (click)="openPreparationPage(sens, prepa_coche)" >Sens &nbsp;&nbsp; <ion-icon name="arrow-forward"></ion-icon> </ion-button>
+   </div>
+   <div text-center *ngIf= "item == 'SENS'">
+     <ion-button round (click)="openPreparationPageback(action, prepa_coche)" ><ion-icon name="arrow-back"></ion-icon>&nbsp;&nbsp;Action  </ion-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <ion-button color ="secondary" (click)="openPreparationPage(resultat, prepa_coche)" >Bilan &nbsp;&nbsp; <ion-icon name="arrow-forward"></ion-icon> </ion-button>
+  </div>
+
+   <div text-center *ngIf= "item == 'RESULTAT'">
+     <ion-button round (click)="openPreparationPageback(sens, prepa_coche)"><ion-icon name="arrow-back"></ion-icon>&nbsp;&nbsp; Sens</ion-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <ion-button  (click)="raz_alerte (prepa_coche)" > Effacer tout </ion-button>
+   </div>
+
+
+</ion-content>

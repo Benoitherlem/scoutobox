@@ -1,0 +1,126 @@
+{
+
+  "eco": [
+
+    {
+      "name":"Une poule en camp",
+      "type":"Activité nature",
+      "soustype":"Happy planète",
+      "activite":"Utiliser un poule pour éliminer une partie des déchets organiques<br>Construire un enclos et un abri pour le camp et emprunter une poule pour réduire les déchets",
+      "sens":"Sensibiliser les jeunes à la notions de réduction des déchets",
+      "variante":"<b>Que mange une poule</b><br>Une poule peut manger des déchets de cuisine toutefois pas d’aliments pourris<br>Attention beaucoup de nos aliments sont trop épicés, salés et gras pour les poules.<br><br>Les poules consomment<ul><li>restes de plats préparés : légumes cuits, viandes et poissons, pommes de terre cuites ;</li><li>riz, pâtes et autres féculents, restes de soupe et sauces </li><li>déchets du désherbage ;</li><li>complémenter de céréales : blé, orge, avoine, maïs concassé… </li><li>complément : céréales germées ;</li><li>coquilles huitres, moules écrasées (calcaire).</li></ul><br>Eviter les déchets suivants (mal digérés): avocat, épluchures d’agrumes, de kiwi et de bananes, pelures d’oignons, feuilles de poireau, la nourriture moisie, les pommes de terres crues, la charcuterie, le fromage<br><br><i>N'hésitez pas à consulter internet qui regorge de conseils pour ce type d'expérience</i>",
+      "img":"assets/imgs/nature/happy.png",
+      "imgf":"assets/imgs/nature/happy_flat.png",
+      "imgl":"assets/imgs/nature/happy_flatlight.png",
+      "principe":"Les activités Happy Planète permettent aux jeunes de découvrirent qu'il existent d'autres manières de vivre:<br>Consommer autrement, moins<br>Vivre mieux, ensemble<br>S'entendre et se respecter, tous<br>Vivre en harmonie entre nous, et dans la nature<br>Rejeter moins de déchets, recycler"
+    },
+    {
+      "name":"Fabriquer sa lessive",
+      "type":"Activité nature",
+      "soustype":"Happy planète",
+      "activite":"Pour fabriquer sa lessive écologique à base de savon de Marseille et de bicarbonate de soude il faut (pour 1 litre):<ul><li>50g de savon de Marseille (râpez le si il n’est pas déjà en copeaux). Attention, le savon de Marseille blanc est généralement à base d’huile de palme. Le savon de Marseille vert est à base d’huile d’olive. Préférez un savon de Marseille composé au minimum de 72% d’huile végétale, sans colorant, sans parfum, sans glycérine (car risque de figer la lessive) et sans conservateur.</li><li>1 cuillère à soupe de bicarbonate de soude.</li><li>1 Litre d’eau</li><li>10 gouttes d’huile essentielle (facultatif). L’huile essentielle sert à parfumer votre linge car le savon de Marseille ne donne aucune odeur. Vous pouvez utiliser l’huile essentielle d’eucalyptus, de lavande…</li></ul><br>Faire chauffer le litre d’eau et ajouter les copeaux de savon de Marseille. Mélangez doucement jusqu’à la totale dissolution des copeaux (ou du savon râpé) dans l’eau.<br>Laissez tiédir et ajoutez la cuillère à soupe de bicarbonate de soude et les gouttes d’huile essentielle.<br>Laissez refroidir une quinzaine de minutes avant de verser le tout dans un bidon de lessive ou un contenant en verre.",
+      "sens":"Montrer aux jeunes qu'on peut remplacer les produits chimiques par des produits naturels réalisés soi-mêmes",
+      "variante":"Si quelques heures après la fabrication la lessive a « figé » il faut la secouer énergiquement. La consistance doit se tenir sans être solide. La lessive sera ensuite à mettre directement dans le tambour en quantité normale.",
+      "img":"assets/imgs/nature/happy.png",
+      "imgf":"assets/imgs/nature/happy_flat.png",
+      "imgl":"assets/imgs/nature/happy_flatlight.png",
+      "principe":"Les activités Happy Planète permettent aux jeunes de découvrirent qu'il existent d'autres manières de vivre:<br>Consommer autrement, moins<br>Vivre mieux, ensemble<br>S'entendre et se respecter, tous<br>Vivre en harmonie entre nous, et dans la nature<br>Rejeter moins de déchets, recycler"
+    },
+    {
+      "name":"Fabriquer ses allume-feux",
+      "type":"Activité nature",
+      "soustype":"Happy planète",
+      "activite":"Matériel:<ul><li>Un bocal en verre</li><li>Des bouchons en liège</li><li>De l’alcool à brûler</li></ul><br>1–Remplir le bocal en verre avec les bouchons en liège.<br>2–Ajouter l’alcool à brûler et fermer avec un joint pour bocal.<br>3–Laissez reposer pendant un mois minimum.",
+      "sens":"Montrer aux jeunes qu'on peut remplacer les produits chimiques par des produits naturels réalisés soi-mêmes",
+      "variante":"",
+      "img":"assets/imgs/nature/happy.png",
+      "imgf":"assets/imgs/nature/happy_flat.png",
+      "imgl":"assets/imgs/nature/happy_flatlight.png",
+      "principe":"Les activités Happy Planète permettent aux jeunes de découvrirent qu'il existent d'autres manières de vivre:<br>Consommer autrement, moins<br>Vivre mieux, ensemble<br>S'entendre et se respecter, tous<br>Vivre en harmonie entre nous, et dans la nature<br>Rejeter moins de déchets, recycler"
+    },
+    {
+      "name":"Fabriquer son liquide vaisselle",
+      "type":"Activité nature",
+      "soustype":"Happy planète",
+      "activite":"Matériel: <ul><li>du savon noir liquide : entièrement biodégradable, il dégraisse, détache, et fait briller</li><li>du vinaigre blanc ou d’alcool (c’est pareil), dégraissant, désinfectant, détartrant<li></li>du bicarbonate de soude : biodégradable, naturel, nettoyant, désodorisant et récurant</li><li>un flacon d’huile essentielle (pour le parfum, ce n’est pas peut être pas si essentiel pour ce qui nous concerne aujourd’hui)</li><li>de l’eau chaude</li><li>un récipient, au mieux, un flacon de liquide vaisselle vide à réutiliser</li></ul><br><br>Versez 1/2 litre d’eau chaude dans votre flacon<br>Ajoutez-y 1/2 verre de savon noir (environ 12,5cl pour mon dosage)<br>Puis une cuillère à soupe de bicarbonate de soude<br>1/2 verre de vinaigre blanc<br>quelques gouttes d’huiles essentielles (ici pamplemousse) pour parfumer votre liquide vaisselle<br>mélangez énergiquement",
+      "sens":"Montrer aux jeunes qu'on peut remplacer les produits chimiques par des produits naturels réalisés soi-mêmes",
+      "variante":"",
+      "img":"assets/imgs/nature/happy.png",
+      "imgf":"assets/imgs/nature/happy_flat.png",
+      "imgl":"assets/imgs/nature/happy_flatlight.png",
+      "principe":"Les activités Happy Planète permettent aux jeunes de découvrirent qu'il existent d'autres manières de vivre:<br>Consommer autrement, moins<br>Vivre mieux, ensemble<br>S'entendre et se respecter, tous<br>Vivre en harmonie entre nous, et dans la nature<br>Rejeter moins de déchets, recycler"
+    },{
+      "name":"Fabriquer son shampoing",
+      "type":"Activité nature",
+      "soustype":"Happy planète",
+      "activite":"Mélangez 100 g de paillettes de savon de Marseille, 1 litre d’eau minérale, 2 cuillères à café de borate de soude et 20 gouttes d’huiles essentielles choisies en fonction de la qualité de votre chevelure",
+      "sens":"Montrer aux jeunes qu'on peut remplacer les produits chimiques par des produits naturels réalisés soi-mêmes",
+      "variante":"",
+      "img":"assets/imgs/nature/happy.png",
+      "imgf":"assets/imgs/nature/happy_flat.png",
+      "imgl":"assets/imgs/nature/happy_flatlight.png",
+      "principe":"Les activités Happy Planète permettent aux jeunes de découvrirent qu'il existent d'autres manières de vivre:<br>Consommer autrement, moins<br>Vivre mieux, ensemble<br>S'entendre et se respecter, tous<br>Vivre en harmonie entre nous, et dans la nature<br>Rejeter moins de déchets, recycler"
+    },
+    {
+      "name":"Bingo-Nature",
+      "type":"Activité nature",
+      "soustype":"Découvrir la nature",
+      "activite":"Le concept du bingo nature est de réaliser un jeu de bingo mais avec des images de la nature.<br>Chaque joueur du bingo dispo d'un plateau de jeu qui contient différentes images de la nature. Tous les joueurs ont des plateaux diffénts qui contiennent certains éléments en commun et certains éléments différents.<br>La maitre du jeu va tirer au sort les noms des éléments.<br>Le premier joueur dont tous les éléments ont été tirés au sort aura gagné !<br><br>En pratique<br><ul><li>Utiliser des feuilles de canson A4</li><li>Imprimer des images de 5cm x 5cm</li><li>En coller une dizaine par page en les choisissant au hasard pour que chaque feuille soit différente</li><li>Mettre un papier de chaque dans un sac pour le tirage au sort</li></ul>",
+      "sens":"Faire découvrir la nature",
+      "variante":"",
+      "img":"assets/imgs/nature/nature.png",
+      "imgf":"assets/imgs/nature/nature_flat.png",
+      "imgl":"assets/imgs/nature/nature_flatlight.png",
+      "principe":"Pour que les jeunes apprennent à protéger la nature, il faut qu'ils l'aiment.<br>Pour qu'ils aiment la nature, il faut qu'ils la connaissent.<br>Pour qu'ils la connaissent il faut leur faire découvrir.<br><br>Astuce: La découverte peut se faire avec les 5 sens: vue, toucher, ouie, odorat, gout"
+    },
+    {
+      "name":"Les écorces",
+      "type":"Activité nature",
+      "soustype":"Découvrir la nature",
+      "activite":"<b>Activité 1: Leur faire \"prendre la trace\" d'une écorce.</b><br>En appliquant une feuille de papier contre le tronc, et en crayonnant dessus avec un crayon à papier, on relève la trace de l'arbre:  : les reliefs apparaissent en noir, les creux, en blanc..<br>Cette technique permettra de \"recenser\" les différents types d'arbres<br><br><b>Activité 2: Leur faire \"retrouver l'arbre\"</b><br>En amenant un jeune les yeux bandés auprès de différents arbres, l'activité consiste à lui faire toucher l'écroce en lui demandant de reconnaitre l'arbre.",
+      "sens":"Faire découvrir les arbres et leurs écorces via différentes activités",
+      "variante":"",
+      "img":"assets/imgs/nature/nature.png",
+      "imgf":"assets/imgs/nature/nature_flat.png",
+      "imgl":"assets/imgs/nature/nature_flatlight.png",
+      "principe":"Pour que les jeunes apprennent à protéger la nature, il faut qu'ils l'aiment.<br>Pour qu'ils aiment la nature, il faut qu'ils la connaissent.<br>Pour qu'ils la connaissent il faut leur faire découvrir.<br><br>Astuce: La découverte peut se faire avec les 5 sens: vue, toucher, ouie, odorat, gout"
+    },
+    {
+      "name":"Faire un herbier",
+      "type":"Activité nature",
+      "soustype":"Découvrir la nature",
+      "activite":"<b>Recolter les plantes</b><br>Récoltez la plante entière avec les racines<br>Pensez à noter les caractériqtiques de la plante qui pourraient disparaître au séchage : couleur exacte, odeur…<br>  Matériel utile:un petit sécateur, une paire de ciseaux, une petite pelle, un carnet, un crayon<br><br><b>Sécher les plantes</b><br>Pressez les plantes prélevées en utilisant du papier buvard ou des papiers journaux, puis les laisser sécher<br>Matériel de séchage: de quoi presser, des gros livres par exemple<br><br><b>Support de l'herbier</b><br>Utiliser de grandes feuilles de papier assez épais (160g/m2 ; le format A3 est idéal).<br>Relier le feuilles entre elles en utilisant une perforatrice et de la ficelle pour les relier entre elles",
+      "sens":"Faire découvrir les plantes et leurs caractéristiques",
+      "variante":"",
+      "img":"assets/imgs/nature/nature.png",
+      "imgf":"assets/imgs/nature/nature_flat.png",
+      "imgl":"assets/imgs/nature/nature_flatlight.png",
+      "principe":"Pour que les jeunes apprennent à protéger la nature, il faut qu'ils l'aiment.<br>Pour qu'ils aiment la nature, il faut qu'ils la connaissent.<br>Pour qu'ils la connaissent il faut leur faire découvrir.<br><br>Astuce: La découverte peut se faire avec les 5 sens: vue, toucher, ouie, odorat, gout"
+    },
+    {
+      "name":"Land'Art",
+      "type":"Activité nature",
+      "soustype":"Découvrir la nature",
+      "activite":"Cette activité naturelle et artistique consiste à demander aux jeunes de constituer une oeuvre d'art à partir d'objets de la nature.<br><br>L'activité aura d'autant plus d'interêt qu'y seront associées des contraintes.<br>sur l'attendu:un visage, un paysage, le monde de demain,... <br><br>sur les matériaux à utiliser: des écorces, utilser des feuilles d'au moins 3 arbres, choisir parmi des éléments proposés",
+      "sens":"Approche sensorielle avec le toucher<br>Découvrir la diversité des éléments naturels<br>Faire une expérimentation avec des enfants<br>Développer sa créativité<br>Sensibiliser les enfants à la protection de l’environnement  <br>Approche esthétique de l’environnement",
+      "variante":"",
+      "img":"assets/imgs/nature/nature.png",
+      "imgf":"assets/imgs/nature/nature_flat.png",
+      "imgl":"assets/imgs/nature/nature_flatlight.png",
+      "principe":"Pour que les jeunes apprennent à protéger la nature, il faut qu'ils l'aiment.<br>Pour qu'ils aiment la nature, il faut qu'ils la connaissent.<br>Pour qu'ils la connaissent il faut leur faire découvrir.<br><br>Astuce: La découverte peut se faire avec les 5 sens: vue, toucher, ouie, odorat, gout"
+    },
+    {
+      "name":"Memory",
+      "type":"Activité nature",
+      "soustype":"Découvrir la nature",
+      "activite":"Cette activité est basée sur le concept du jeu \"Memory\".<br>A partir d'image de la nature (arbres, écorces, traces...), on imprime plein de petit carrés avec ces images, à chaque fois en double.<br>Les images sont potionnées face cachées sur le sol ou sur une table.<br>Chaque joueur à son tour peut en retourner deux, si elles sont identiques, ils les \"gagne\" et les retire du jeu<br>  A la fin du jeu, le joueur ayant le plus de carte a gagné",
+      "sens":"L'enjeu est de choisir les images avec attention pour leur faire découvrir des éléments grâce à ces images",
+      "variante":"",
+      "img":"assets/imgs/nature/nature.png",
+      "imgf":"assets/imgs/nature/nature_flat.png",
+      "imgl":"assets/imgs/nature/nature_flatlight.png",
+      "principe":"Pour que les jeunes apprennent à protéger la nature, il faut qu'ils l'aiment.<br>Pour qu'ils aiment la nature, il faut qu'ils la connaissent.<br>Pour qu'ils la connaissent il faut leur faire découvrir.<br><br>Astuce: La découverte peut se faire avec les 5 sens: vue, toucher, ouie, odorat, gout"
+    }
+            ]
+
+        }

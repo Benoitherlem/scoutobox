@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end"><ion-back-button text="Retour"  defaultHref="home"></ion-back-button></ion-buttons>
+    <ion-title>Préparer un camp</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class = "card-background-page">
+
+
+<small><i>Les éléments ci dessous sont issus de projets pédagogiques déjà mis en oeuvre. Ils ne sont pas exhaustifs et doivent être condidérés comme une source d'inspiration et non pas comme des attentes ou des obligations.</i></small>
+
+<br>
+<br>
+<ion-list>
+
+
+  <ion-item  color={{color_csp}} lines="full" (click)="goitem('csp')"  detail button > <ion-label><h2><b>Construire sa personnalité </b></h2></ion-label></ion-item>
+  <div  *ngFor="let p of data_prepacamp;let i = index" class="marge">
+      <div *ngIf= "p.type=='construire_sa_perso'"><div *ngIf= "item=='csp'">
+      <ion-item button (click)="godisplay(i, p.name, p.type,p.titre, p.extrait, p.contenu)" detail><ion-label class="marge" text-wrap>{{p.name}}</ion-label></ion-item>
+    </div></div></div>
+
+    <ion-item  color={{color_egf}} lines="full" (click)="goitem('egf')"  detail button > <ion-label><h2><b>Eduquer des garçons et des filles </b></h2></ion-label></ion-item>
+    <div  *ngFor="let p of data_prepacamp;let i = index" class="marge">
+        <div *ngIf= "p.type=='eduquer_g_f'"><div *ngIf= "item=='egf'">
+        <ion-item button (click)="godisplay(i, p.name, p.type,p.titre, p.extrait, p.contenu)" detail><ion-label class="marge" text-wrap>{{p.name}}</ion-label></ion-item>
+      </div></div></div>
+
+      <ion-item  color={{color_ve}} lines="full" (click)="goitem('ve')"  detail button > <ion-label><h2><b>Vivre Ensemble </b></h2></ion-label></ion-item>
+      <div  *ngFor="let p of data_prepacamp;let i = index" class="marge">
+          <div *ngIf= "p.type=='vivre_ensemble'"><div *ngIf= "item=='ve'">
+          <ion-item button (click)="godisplay(i, p.name, p.type,p.titre, p.extrait, p.contenu)" detail><ion-label class="marge" text-wrap>{{p.name}}</ion-label></ion-item>
+        </div>
+      </div></div>
+
+
+    <ion-item  color={{color_halp}} (click)="goitem('halp')" lines="full" detail button > <ion-label><h2><b>Habiter Autrement La Planète </b></h2></ion-label></ion-item>
+    <div  *ngFor="let p of data_prepacamp;let i = index" class="marge">
+        <div *ngIf= "p.type=='HALP'"><div *ngIf= "item=='halp'">
+        <ion-item button (click)="godisplay(i, p.name, p.type,p.titre, p.extrait, p.contenu)" detail><ion-label class="marge" text-wrap>{{p.name}}</ion-label></ion-item>
+      </div></div></div>
+<br>
+
+
+
+
+
+</ion-list>
+<br><br><div text-center ><ion-button shape="round" color="secondary" style="width:80%" href="https://www.sgdf.fr/le-mouvement/un-projet-educatif">Le projet éducatif des<br>Scouts et Guides de France</ion-button></div>
+
+</ion-content>

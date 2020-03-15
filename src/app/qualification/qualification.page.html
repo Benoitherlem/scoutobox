@@ -1,0 +1,111 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button text="Retour"  defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Qualifications</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+<small>Les éléments indiqués si dessous sont calculés à partir du guide réglementaire du Scoutisme Français 2018. La déclaration d'un accueil de scoutisme nécessite la prise en compte d'autres facteurs qui ne peuvent être objectivés dans une application: compétences montrées, fonctionnement de la maitrise, expériences... </small>
+<br><br>
+<ion-list>
+
+
+  <ion-item color='medium'><ion-label> Calculer des qualifications requises</ion-label></ion-item>
+  <ion-item>
+  <ion-label><span text-wrap><small>La durée du séjour est supérieure ou égale à 4 nuits</small></span></ion-label> <ion-toggle color="secondary" [(ngModel)]=nuits></ion-toggle>
+  </ion-item>
+
+  <ion-item>
+      <ion-label><small>Tranche d'age</small></ion-label>
+      <ion-select placeholder="Sélectionner la tranche d'age" [(ngModel)]= trancheage>
+        <ion-select-option value="1">6-8 ans</ion-select-option>
+        <ion-select-option value="2">8-11 ans</ion-select-option>
+        <ion-select-option value="3">11-14 ans</ion-select-option>
+        <ion-select-option value="4">14-17 ans</ion-select-option>
+
+      </ion-select>
+    </ion-item>
+
+    <ion-item><small> Nombre de jeunes:  {{nbjeunes}} &nbsp;&nbsp; <i> curseur ci dessous</i> </small></ion-item>
+    <ion-item>
+          <ion-range min="0" max="40" step="1" snaps="true" pin=true [(ngModel)]= nbjeunes color="secondary">
+            <ion-icon slot="start" name="body"></ion-icon>
+            <ion-icon slot="end" name="body"></ion-icon>
+          </ion-range>
+  </ion-item>
+
+
+  <ion-item color ='secondary' *ngIf='nbjeunes'>
+    <div *ngIf="(nuits!=true)||(nbjeunes<7)"><br> Les séjour d'accueil de scoutisme de moins de 7 jeunes ou d'une durée de moins de 4 nuits ne nécessitent pas de déclaration spécifique, la déclaration d'accueil de scoutisme de l'année est suffisante.
+    <br><br> Il est nécessaire de vérifier que la déclaration d'accueil de scoutisme de l'année couvre bien la période du séjour (en particulier pour les séjours de juillet-aout)<br><br></div>
+    <div *ngIf="(nuits==true)&&(nbjeunes>7)">
+
+
+    <br><br>
+    <div *ngIf="(trancheage==4)"> <b>Tous les jeunes</b> ont plus de 14 ans au 1er jour du camp<br><br></div>
+
+    Qualifications requises (à minima):
+    <ul>
+      <li>1 directeur du scoutisme français (DSF)</li>
+          <div *ngIf="(nbjeunes<13)&&(trancheage<4)">
+            <li>1 animateur du Scoutisme français</li>
+          </div>
+
+          <div *ngIf="(nbjeunes>12)&&(nbjeunes<25)&&(trancheage<4)">
+            <li>1 animateur du Scoutisme français</li>
+            <li>1 stagiaire du scoutisme français</li>
+          </div>
+
+          <div *ngIf="(nbjeunes>24)&&(nbjeunes<37)&&(trancheage<4)">
+            <li>2 animateur du Scoutisme français</li>
+            <li>1 non-formé (ou stagiaire)</li>
+          </div>
+
+          <div *ngIf="(nbjeunes>36)&&(nbjeunes<49)&&(trancheage<4)">
+
+            <li>2 animateur du Scoutisme français</li>
+            <li>1 stagiaire</li>
+            <li>1 non-formé</li>
+          </div>
+
+          <div *ngIf="(nbjeunes>12)&&(nbjeunes<25)&&(trancheage==4)">
+          <li>1 stagiaire du scoutisme français</li>
+          </div>
+
+          <div *ngIf="(nbjeunes>24)&&(nbjeunes<37)&&(trancheage==4)">
+            <li>1 animateur du Scoutisme français</li>
+            <li>1 non-formé (ou stagiaire)</li>
+          </div>
+
+          <div *ngIf="(nbjeunes>36)&&(nbjeunes<49)&&(trancheage==4)">
+            <li>1 animateur du Scoutisme français</li>
+            <li>1 stagiaire</li>
+            <li>1 non-formé</li>
+          </div>
+
+
+
+          </ul>
+          <br>
+          <i><small>Réglementairement: si le nombre d’animateurs va au-delà de l’effectif minimal requis (1 animateur pour 12), les
+            obligations de qualification ne sont pas obligatoires pour les personnes supplémentaires.</small> <br><br>
+
+            Rappel: L'article 35 du règlement intérieur de l'association spécifie: "L'unite [...] compte au maximum une trentaine de jeunes"
+          </i>
+
+
+
+    </div>
+      <br>      <br>
+    </ion-item>
+
+
+</ion-list>
+</ion-content>

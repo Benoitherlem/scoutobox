@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end"><ion-back-button text="Retour"  defaultHref="home"></ion-back-button></ion-buttons>
+    <ion-title>Fiche activité</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class = "card-background-page">
+<div *ngIf="item" >
+
+              <ion-card>
+                <img src= {{item.imgf}} />
+                <div class="card-title"> {{item.name}}</div>
+               </ion-card>
+
+                 <div *ngIf="(type=='jeucourt')||(type=='gjeu')||(type=='veillee')" >
+                           <ion-list>
+                                  <ion-item text-wrap>  <ion-thumbnail slot="start">  <img src="assets/imgs/creiras/C.png">  </ion-thumbnail><ion-label><small><span text-wrap [innerHTML]="item.cadre"></span></small></ion-label></ion-item>
+                                  <ion-item text-wrap>  <ion-thumbnail slot="start">  <img src="assets/imgs/creiras/R.png">  </ion-thumbnail><ion-label><small><span text-wrap [innerHTML]="item.regle"></span></small></ion-label></ion-item>
+                                  <ion-item text-wrap>  <ion-thumbnail slot="start">  <img src="assets/imgs/creiras/E.png">  </ion-thumbnail><ion-label><small><span text-wrap [innerHTML]="item.equipe"></span></small></ion-label></ion-item>
+                                  <ion-item text-wrap>  <ion-thumbnail slot="start">  <img src="assets/imgs/creiras/I.png">  </ion-thumbnail><ion-label><small><span text-wrap [innerHTML]="item.imaginaire"></span></small></ion-label></ion-item>
+                                  <ion-item text-wrap>  <ion-thumbnail slot="start">  <img src="assets/imgs/creiras/R.png">  </ion-thumbnail><ion-label><small><span text-wrap [innerHTML]="item.role"></span></small></ion-label></ion-item>
+                                  <ion-item text-wrap>  <ion-thumbnail slot="start">  <img src="assets/imgs/creiras/A.png">  </ion-thumbnail><ion-label><small><span text-wrap [innerHTML]="item.action"></span></small></ion-label></ion-item>
+                                  <ion-item text-wrap>  <ion-thumbnail slot="start">  <img src="assets/imgs/creiras/S.png">  </ion-thumbnail><ion-label><small><span text-wrap [innerHTML]="item.sens"></span></small></ion-label></ion-item>
+                                  <ion-item *ngIf="item.variante" text-wrap> <p><small><span [innerHTML]="item.variante"></span></small> <br></p></ion-item>
+                                </ion-list>
+                     </div>
+
+                     <div *ngIf="type=='actmanuelle'" >
+                          <ion-list>
+                              <ion-item text-wrap>  <ion-thumbnail slot="start">  <img src="assets/imgs/actmanuelle/principe.png">  </ion-thumbnail> <small><span [innerHTML]="item.activite"></span></small></ion-item>
+                                <ion-item text-wrap>  <ion-thumbnail slot="start">  <img src="assets/imgs/actmanuelle/materiel.png">  </ion-thumbnail> <small><span [innerHTML]="item.materiel"></span></small> </ion-item>
+                                <ion-item no-lines *ngIf="item.variante" text-wrap> <p><small><span [innerHTML]="item.variante"></span></small> <br></p></ion-item>
+                            </ion-list>
+                         </div>
+
+                         <div *ngIf="type=='eco'" >
+                           <ion-list>
+                             <ion-item text-wrap>  <ion-thumbnail slot="start">  <img src="assets/imgs/nature/activite.png">  </ion-thumbnail> <small><span [innerHTML]="item.activite"></span></small></ion-item>
+                             <ion-item text-wrap>  <ion-thumbnail slot="start">  <img src="assets/imgs/nature/sens.png">  </ion-thumbnail>  <small><span [innerHTML]="item.sens"></span></small> </ion-item>
+                             <ion-item text-wrap padding no-lines>  <small><span [innerHTML]="item.variante"></span></small> </ion-item>
+                           </ion-list>
+                         </div>
+
+
+
+          <ion-card>
+            <img src={{item.imgl}}/>
+            <div class="card-subtitle" [innerHTML]= "item.principe" ></div>
+            </ion-card>
+
+</div>
+</ion-content>

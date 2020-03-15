@@ -1,0 +1,256 @@
+
+{
+
+  "evaluation": [
+                      { "categorie":"CADRE",
+                        "type":"separation",
+                        "img":"assets/imgs/evaluation/evaluation_flat.png"
+                      }
+                      ,
+                      {
+                        "categorie":"CADRE",
+                        "type":"range",
+                        "eval":"Le cadre spatial prévu a été respecté",
+                        "icone_range_min":"md-sad",
+                        "icone_range_max":"md-happy",
+                        "res1":"Pas du tout, c'est parti dans tous les sens",
+                        "res2":"C'était pas très clair",
+                        "res3":"Emporté par le jeu, ça a un peu débordé",
+                        "res4":"Le cadre a été strictement respecté"
+                      }
+                      ,
+                      {
+                        "categorie":"CADRE",
+                        "type":"toggle",
+                        "eval":"il n'y a pas eu de bobo/blessé"
+                      },
+                      {
+                        "categorie":"CADRE",
+                        "type":"range",
+                        "eval":"La durée de l'activité a été respectée",
+                        "icone_range_min":"md-sad",
+                        "icone_range_max":"md-happy",
+                        "res1":"Hum...on est grave à la bourre là",
+                        "res2":"Gloablement: pas du tout",
+                        "res3":"On était presque bon",
+                        "res4":"L'activité a duré le temps prévu"
+                      },
+                      {
+                      "categorie":"REGLES",
+                      "type":"separation",
+                      "img":"assets/imgs/evaluation/evaluation_flat.png"
+                      },
+                      {
+                        "categorie":"REGLES",
+                        "type":"range",
+                        "eval":"Les règles étaient précises et expliquées",
+                        "icone_range_min":"md-sad",
+                        "icone_range_max":"md-happy",
+                        "res1":"OK, c'était pas clairs",
+                        "res2":"Les règles manquaient de précisions",
+                        "res3":"Les règles étaient claires",
+                        "res4":"Les règles étaient claires et bien expliquée"
+                      },
+                      {
+                        "categorie":"REGLES",
+                        "type":"toggle",
+                        "eval":"Tous les chefs connaissaient les règles"
+                      },
+                      {
+                        "categorie":"REGLES",
+                        "type":"range",
+                        "eval":"Les règles étaient comprises et appliquées",
+                        "icone_range_min":"md-sad",
+                        "icone_range_max":"md-happy",
+                        "res1":"C'était du grand n'importe quoi",
+                        "res2":"On a du faire évoluer les règles",
+                        "res3":"Il y avait des règles, pas toujours simples",
+                        "res4":"Les règles étaient claires et appliquées"
+                      }   ,
+                        {
+                        "categorie":"EQUIPE",
+                        "type":"separation",
+                        "img":"assets/imgs/evaluation/evaluation_flat.png"
+                        }
+                        ,
+                        {
+                          "categorie":"EQUIPE",
+                          "type":"range",
+                          "eval":"La mise en équipe était travaillée",
+                          "icone_range_min":"md-sad",
+                          "icone_range_max":"md-happy",
+                          "res1":"Le chef a dit: \"faites des équipes\"",
+                          "res2":"La mise en équipe était organisée",
+                          "res3":"La mise en équipe était dans l'imaginaire",
+                          "res4":"La mise en équipe était fun et dans l'imaginaire"
+                        },
+                        {
+                          "categorie":"EQUIPE",
+                          "type":"toggle",
+                          "eval":"Les équipes étaient équilibrées"
+                      }
+                        ,
+                        {
+                          "categorie":"EQUIPE",
+                          "type":"toggle",
+                          "eval":"Des chefs étaient intégrés aux équipes"
+                      },
+                      {
+                        "categorie":"EQUIPE",
+                        "type":"toggle",
+                        "eval":"Les équipes avaient un signe distinctif"
+                    },
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "type":"separation",
+                      "img":"assets/imgs/evaluation/evaluation_flat.png"
+                    },
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "type":"range",
+                      "eval":"Le lancement de l'imaginaire",
+                      "icone_range_min":"md-sad",
+                      "icone_range_max":"md-happy",
+                      "res1":"Un lancement, pourquoi faire ?",
+                      "res2":"Oups",
+                      "res3":"On a expliqué l'histoire",
+                      "res4":"On s'est mis en scène, on a pris le temps"
+                    },
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "type":"range",
+                      "eval":"La cloture de l'imaginaire",
+                      "icone_range_min":"md-sad",
+                      "icone_range_max":"md-happy",
+                      "res1":"Une cloture, pourquoi faire ?",
+                      "res2":"Oups",
+                      "res3":"On a expliqué l'histoire",
+                      "res4":"On s'est mis en scène, on a pris le temps"
+                    },
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "type":"range",
+                      "eval":"Les jeunes sont rentrés dans l'imaginaire",
+                      "icone_range_min":"md-sad",
+                      "icone_range_max":"md-happy",
+                      "res1":"Il y avait un imaginaire ?",
+                      "res2":"Oui... Bref on a fait un jeu",
+                      "res3":"Les jeunes ont compris l'imaginaire",
+                      "res4":"Les jeunes étaient à fond"
+                    },
+                    {
+                      "categorie":"IMAGINAIRE",
+                      "type":"range",
+                      "eval":"Les personnages étaient travaillés",
+                      "icone_range_min":"md-sad",
+                      "icone_range_max":"md-happy",
+                      "res1":"C'était un chef avec un drap tout moche",
+                      "res2":"Ok, mais ça se voyait que c'était des chefs",
+                      "res3":"Les déguisements étaient sympa",
+                      "res4":"Les postures, tons, jeux de rôle et déguisement étaient top"
+                    },
+
+                    {
+                      "categorie":"ROLES",
+                      "type":"separation",
+                      "img":"assets/imgs/evaluation/evaluation_flat.png"
+                    },
+                    {
+                      "categorie":"ROLES",
+                      "type":"toggle",
+                      "eval":"Il y avait un arbitre"
+                  },
+                  {
+                    "categorie":"ROLES",
+                    "type":"toggle",
+                    "eval":"Il y a avait un maitre du temps"
+                  },
+                  {
+                    "categorie":"ROLES",
+                    "type":"range",
+                    "eval":"Les rôles étaient bien répartis",
+                    "icone_range_min":"md-sad",
+                    "icone_range_max":"md-happy",
+                    "res1":"Non, on est parti dans tous les sens",
+                    "res2":"On a essayé, mais en fait on s'est beaucoup contredit, c'était pas clair",
+                    "res3":"Les rôles étaient plutot bien répartis",
+                    "res4":"Top: chacun avait un rôle précis"
+                  },
+
+                      {
+                        "categorie":"ACTION",
+                        "type":"range",
+                        "eval":"Les jeunes se sont amusés",
+                        "icone_range_min":"md-sad",
+                        "icone_range_max":"md-happy",
+                        "res1":"Pas du tout",
+                        "res2":"Certains de sont amusés",
+                        "res3":"La plupart des jeunes ont joué",
+                        "res4":"tous les jeunes étaient à fond"
+                      },
+
+                      {
+                        "categorie":"ACTION",
+                        "type":"range",
+                        "eval":"Tous le monde a participé",
+                        "icone_range_min":"md-sad",
+                        "icone_range_max":"md-happy",
+                        "res1":"Seuls quelques uns ont participé activement",
+                        "res2":"La plupart ont participé",
+                        "res3":"Quelques uns n'ont pas participé",
+                        "res4":"Tout le monde a participé"
+                      }
+                      ,
+
+                      {
+                        "categorie":"ACTION",
+                        "type":"toggle",
+                        "eval":"Les malades/blessés ont pu participer"
+                    },
+
+                    {
+                      "categorie":"ACTION",
+                      "type":"toggle",
+                      "eval":"Des chefs ont joué avec les jeunes"
+                  },
+
+
+                  {
+                    "categorie":"SENS",
+                    "type":"separation",
+                    "img":"assets/imgs/evaluation/evaluation_flat.png"
+                  },
+                  {
+                    "categorie":"SENS",
+                    "type":"toggle",
+                    "eval":"Le sens du jeu a été réfléchi avec l'ensemble de la maitrise"
+                  },
+                  {
+                    "categorie":"SENS",
+                    "type":"range",
+                    "eval":"Les jeunes ont développé des compétences",
+                    "icone_range_min":"md-sad",
+                    "icone_range_max":"md-happy",
+                    "res1":"Oups... là ils ont plutôt regressé",
+                    "res2":"Bof...",
+                    "res3":"Oui, un peu",
+                    "res4":"L'activité a permis de développer des compétences spécifiques"
+                  },
+                  {
+                    "categorie":"SENS",
+                    "type":"range",
+                    "eval":"Les jeunes ont progressé sur au moins un des six axes de développement: relation aux autres, à soi, au monde, à Dieu, au corps, affective",
+                    "icone_range_min":"md-sad",
+                    "icone_range_max":"md-happy",
+                    "res1":"Oups... là ils ont plutôt regressé",
+                    "res2":"Bof...",
+                    "res3":"Oui, un peu",
+                    "res4":"L'activité a permis de faire faire progresser les jeunes"
+                  }
+
+
+
+
+        ]
+
+}

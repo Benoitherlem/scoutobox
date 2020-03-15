@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button text="Retour"  defaultHref="/methode"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Préparer une veillée</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <i>« La veillée est comme un rendez-vous du soir, un passage dans la nuit, trait d’union entre l’activité du jour et le silence de la nuit. » </i>
+  <br><br>
+  La qualité d’une veillée ne se mesure pas au temps qu’elle dure, mais à ce qu’on y a vécu. Une veillée de 45mn peut être largement suffisante si les jeunes y vivent un moment fort et en ressortent avec des étoiles plein  la tête
+  <br><br>
+  <font color="#045FB4" size=4><b>Les 4 temps d'une veillée</b><br></font>
+  <br>
+  <ion-list>
+    <div  *ngFor="let p of data; let i = index">
+      <ion-item color={{color[i]}} button (click)="activeritem(p.name,i)">
+     <ion-avatar item-start> <img src={{p.img}}>   </ion-avatar><ion-label class = "marge">  {{p.name}}</ion-label> </ion-item>
+
+     <ion-item *ngIf="itemactif==p.name" ><ion-label text-wrap><span [innerHTML]="p.detail"></span></ion-label></ion-item>
+
+
+     </div>
+  </ion-list>
+
+  <img src="assets/imgs/veillee4temps.png" alt="veillee4temps">
+
+<br><i>Il n’y a pas de courbe de veillée absolue, celle-ci va dépendre de chaque veillée. Pour autant, l’invitation et l’accroche tout comme le retour au calme seront toujours nécessaires.</i>
+<br>
+</ion-content>

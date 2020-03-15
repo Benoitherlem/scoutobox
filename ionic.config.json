@@ -1,0 +1,7 @@
+{
+  "name": "scoutobox",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

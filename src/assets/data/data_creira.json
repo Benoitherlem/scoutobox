@@ -1,0 +1,59 @@
+{
+
+  "creira": [
+
+    {
+      "name":"Cadre",
+      "img":"assets/imgs/creiras/C.png",
+      "detail":"« Espace » et « Temps » nécessaires pour délimiter l’activité</b><br><br><b>La priorité du chef est de s'assurer de la sécurité des jeunes.</b><br> <br>  Pour cela il délimite le terrain, balise les zones à éviter et explique aux jeunes les risques potentiels. Durant le jeu, selon l'age des jeunes et selon les risques du terrain, il mettra en oeuvre les moyens nécessaires pour que les jeunes jouent en sécurité.<i>ex: s'il y a une route dangereuse, peut être faut il laisser un chef devant la route pour rappeler la limite aux jeunes s'en rapprochant</i><ul><li>Définir la durée de l'activité, son début et sa fin</li><li>Poser des limites visibles sur le terrain </li><li>S’assurer de la sécurité</li><li>S’assurer que chaque jeune se sent en sécurité</li><li>Avoir un matériel en quantité suffisante </li></ul><br><br>",
+      "imgf":"assets/imgs/creiras/creira_flat.png",
+      "imgl":"assets/imgs/creiras/creira_flatlight.png"
+    },
+    {
+      "name":"Règles",
+      "img":"assets/imgs/creiras/R.png",
+      "detail":"Les règles doivent être<ul><li>Précises et compréhensibles  <br><li>Adaptées à tous <br><li>Facilement mémorisables ou notées sur un support écrit<br><li>Expliquées par une unique personne <br></ul><i> La règle sert de boussole, et les lois de compas (Francis Bacon)</i><br><br>",
+      "imgf":"assets/imgs/creiras/creira_flat.png",
+      "imgl":"assets/imgs/creiras/creira_flatlight.png"
+    },
+    {
+      "name":"Equipe",
+      "img":"assets/imgs/creiras/E.png",
+      "detail":"<b>Mise en équipe: association des joueurs pour former les équipes</b><br><ul><li>Moyen de reconnaissance évident </li><li>Les équipes sont équitables</li><li>Facile à constituer</li><li>Si possible les chefs jouent avec les jeunes au sein des équipes (selon jeu ou imaginaire)</li><li>Ateliers manuels : favoriser les petites équipes </li></ul><br><br><i> Notre travail devient facile quand nous le considérons comme un jeu ou nous sommes les joueurs d'une équipe, chacun jouant à sa place, tous jouant ensemble pour le bien de l'équipe; et quand nous entrons dans cet esprit, nous découvrons bientôt que ce n'est pas seulement un jeu mais un grand jeu. (Baden-Powell)</i><br><br>",
+      "imgf":"assets/imgs/creiras/creira_flat.png",
+      "imgl":"assets/imgs/creiras/creira_flatlight.png"
+    },
+    {
+      "name":"Imaginaire",
+      "img":"assets/imgs/creiras/I.png",
+      "detail":"<b>L'ensemble des déléments plongent les participants dans l'imginaire</b><br>  <ul>  <li>Personnages (posture, déguisements)</li><li>Décors, outils, accessoires </li><li>Ton, posture, vocabulaire</li><li>Histoire bien racontée, bien exliquée</li></ul><br><br>  <i>Le chef de meute peut à n'importe quel moment, obtenir de ses garçons une attention soutenue en leur racontant une histoire, et par ce biais il peut faire passer toutes les leçons qu'il veut inculquer (Baden-Powell)</i><br><br>",
+      "imgf":"assets/imgs/creiras/creira_flat.png",
+      "imgl":"assets/imgs/creiras/creira_flatlight.png"
+    },
+    {
+      "name":"Roles",
+      "img":"assets/imgs/creiras/R2.png",
+      "detail":"<b>Rôle attribué à chaque animateur</b><br><ul><li>Les rôles dans l'imaginaire et dans le jeu sont clairs et identifiés</li>  <li>Si un chef est \"dans l'imaginaire\" au début du jeu, il y reste jusqu'à la fin</li><li>Au moins un animateur par équipe qui joue pour motiver <br><li>Au moins 1 arbitre pour faire respecter les règles<br><li>1 coordinateur <br></ul><i>« Je tiens ce monde pour ce qu’il est : un théâtre où chacun doit jouer son rôle ». (William Shakespeare)</i><br><br>",
+      "imgf":"assets/imgs/creiras/creira_flat.png",
+      "imgl":"assets/imgs/creiras/creira_flatlight.png"
+    },
+    {
+      "name":"Action",
+      "img":"assets/imgs/creiras/A.png",
+      "detail":"Les participants jouent à l’activité et s'amusent.<br><br>Il se passe quelque chose de plaisant et d’éducatif !<br><ul><li>Faire respecter les règles<br><li>Pas de moqueries, de violence ou d’allusions sexuelles<br><li>Tous les jeunes participent à l'action (même celui qui ne peut pas courir)<br><li>Une conclusion <br></ul><br><i>Le jeu est pour le jeune la chose la plus importante dans la vie (Baden-Powell)</i><br><br>",
+      "imgf":"assets/imgs/creiras/creira_flat.png",
+      "imgl":"assets/imgs/creiras/creira_flatlight.png"
+    },
+    {
+      "name":"Sens",
+      "img":"assets/imgs/creiras/S.png",
+      "detail":"<b>Faire grandir</b><br><ul><li>Acquérir des compétences<br><li>Développer ses capacités<br><li>Coopération<br><li>Découverte <br>  </ul><br><br><i>Les jeux ne sont que des moyens pour apprendre à jouer le jeu le plus important: Le jeu de la vie (Baden-Powell)</i><br><br>",
+      "imgf":"assets/imgs/creiras/creira_flat.png",
+      "imgl":"assets/imgs/creiras/creira_flatlight.png"
+    }
+
+
+
+        ]
+
+        }

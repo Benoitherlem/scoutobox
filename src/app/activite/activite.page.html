@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button text="Retour" defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Choisir une activité</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+<i><small>Sélectionner un type d'activité pour afficher celles-ci</small></i><br><br>
+    <ion-list>
+        <ion-item  color={{color_jeucourt}} lines="full" detail button (click)="goitem('jeucourt')"> <ion-label><h2>Jeux courts </h2></ion-label></ion-item>
+        <div *ngIf= "item == 'jeucourt'"><div  *ngFor="let p of data_jeucourt;let i = index" class="marge">
+          <ion-item button (click)="godisplay(i,'jeucourt')" detail><ion-avatar><img src={{p.img}}></ion-avatar><ion-label class="marge" text-wrap>{{p.name}}<br><p>{{p.soustype}}</p></ion-label></ion-item>
+      </div></div>
+
+
+        <ion-item  color={{color_gjeu}} lines="full" detail button (click)="goitem('gjeu')"> <ion-label><h2>Grands jeux </h2></ion-label></ion-item>
+      <div *ngIf= "item == 'gjeu'">  <div  *ngFor="let p of data_gjeu;let i = index" class="marge">
+          <ion-item button (click)="godisplay(i,'gjeu')" detail><ion-avatar><img src={{p.img}}></ion-avatar><ion-label class="marge" text-wrap>{{p.name}}<br><p>{{p.soustype}}</p></ion-label></ion-item>
+      </div></div>
+
+        <ion-item  color={{color_eco}} detail lines="full" button (click)="goitem('eco')"> <ion-label><h2>Eco-activités </h2></ion-label></ion-item>
+        <div *ngIf= "item == 'eco'"><div  *ngFor="let p of data_eco;let i = index" class="marge">
+          <ion-item button (click)="godisplay(i,'eco')" detail><ion-avatar><img src={{p.img}}></ion-avatar><ion-label class="marge" text-wrap>{{p.name}}<br><p>{{p.soustype}}</p></ion-label></ion-item>
+      </div></div>
+
+        <ion-item  color={{color_actmanuelle}} detail lines="full" button (click)="goitem('actmanuelle')"> <ion-label><h2>Activités manuelles </h2></ion-label></ion-item>
+        <div *ngIf= "item == 'actmanuelle'"><div  *ngFor="let p of data_actmanuelle;let i = index" class="marge">
+          <ion-item button (click)="godisplay(i,'actmanuelle')" detail><ion-avatar><img src={{p.img}}></ion-avatar><ion-label class="marge" text-wrap>{{p.name}}<br><p>{{p.soustype}}</p></ion-label></ion-item>
+      </div></div>
+
+        <ion-item  color={{color_veillee}} detail lines="full" button (click)="goitem('veillee')"> <ion-label><h2>Veillées </h2></ion-label></ion-item>
+        <div *ngIf= "item == 'veillee'"><div  *ngFor="let p of data_veillee;let i = index" class="marge">
+          <ion-item button (click)="godisplay(i,'veillee')" detail><ion-avatar><img src={{p.img}}></ion-avatar><ion-label class="marge" text-wrap>{{p.name}}<br><p>{{p.soustype}}</p></ion-label></ion-item>
+      </div></div>
+
+    </ion-list>
+</ion-content>

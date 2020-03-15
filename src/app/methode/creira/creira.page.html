@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button text="Retour"   defaultHref="methode"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Le CREIRAS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content ion-content class="ion-padding">
+  <br>
+  Le <font color="#045FB4"><b>CREIRAS</b></font> est un acronyme qui permet de se rappeler facilement des 7 clés pour réussir une activité
+  <br><br>
+    <ion-list>
+      <ion-item detail color={{colorcadre}} button (click)="activeritem('Cadre')"><ion-thumbnail slot="start">  <img src={{itemcadre.img}}>  </ion-thumbnail>{{itemcadre.name}}</ion-item>
+      <div *ngIf ="itemactif=='Cadre'"><ion-item><small><ion-label class="ion-text-wrap"><br><span [innerHTML]="itemcadre.detail"></span></ion-label></small> </ion-item></div>
+
+      <ion-item detail color={{colorregles}} button (click)="activeritem('Regles')"><ion-thumbnail slot="start">  <img src={{itemregles.img}}>  </ion-thumbnail>{{itemregles.name}}</ion-item>
+      <div *ngIf ="itemactif=='Regles'"><ion-item><small><ion-label class="ion-text-wrap"><br><span [innerHTML]="itemregles.detail"></span></ion-label></small> </ion-item></div>
+
+      <ion-item detail color={{colorequipe}} button (click)="activeritem('Equipe')"><ion-thumbnail slot="start">  <img src={{itemequipe.img}}>  </ion-thumbnail>{{itemequipe.name}}</ion-item>
+      <div *ngIf ="itemactif=='Equipe'"><ion-item><small><ion-label class="ion-text-wrap"><br><span [innerHTML]="itemequipe.detail"></span></ion-label></small> </ion-item></div>
+
+      <ion-item detail color={{colorimaginaire}} button (click)="activeritem('Imaginaire')"><ion-thumbnail slot="start">  <img src={{itemimaginaire.img}}>  </ion-thumbnail>{{itemimaginaire.name}}</ion-item>
+      <div *ngIf ="itemactif=='Imaginaire'"><ion-item><small><ion-label class="ion-text-wrap"><br><span [innerHTML]="itemimaginaire.detail"></span></ion-label></small> </ion-item></div>
+
+      <ion-item detail color={{colorroles}} button (click)="activeritem('Roles')"><ion-thumbnail slot="start">  <img src={{itemroles.img}}>  </ion-thumbnail>{{itemroles.name}}</ion-item>
+      <div *ngIf ="itemactif=='Roles'"><ion-item><small><ion-label class="ion-text-wrap"><br><span [innerHTML]="itemroles.detail"></span></ion-label></small> </ion-item></div>
+
+      <ion-item detail color={{coloraction}} button (click)="activeritem('Action')"><ion-thumbnail slot="start">  <img src={{itemaction.img}}>  </ion-thumbnail>{{itemaction.name}}</ion-item>
+      <div *ngIf ="itemactif=='Action'"><ion-item><small><ion-label class="ion-text-wrap"><br><span [innerHTML]="itemaction.detail"></span></ion-label></small> </ion-item></div>
+
+      <ion-item detail color={{colorsens}} button (click)="activeritem('Sens')"><ion-thumbnail slot="start">  <img src={{itemsens.img}}>  </ion-thumbnail>{{itemsens.name}}</ion-item>
+      <div *ngIf ="itemactif=='Sens'"><ion-item><small><ion-label class="ion-text-wrap"><br><span [innerHTML]="itemsens.detail"></span></ion-label></small> </ion-item></div>
+
+
+
+  </ion-list>
+
+<i>Ne pas oublier la préparation et le rangement du matériel</i>
+
+</ion-content>
